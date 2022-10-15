@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - uses: Swatinem/rust-cache@v2
-    - uses: mtshiba/setup-erg2@v0.24
+    - uses: mtshiba/setup-erg2@v1
       with:
         erg-version: 0.5.9
     - name: Run script
