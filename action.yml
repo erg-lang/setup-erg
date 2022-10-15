@@ -9,5 +9,5 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - run: cargo install erg@${{ inputs.erg-version }}
+    - run: cargo install erg@${{ inputs.erg-version }} --features no_build_rs
       shell: bash
