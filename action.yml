@@ -3,7 +3,7 @@ description: 'Setup a Erg environment by adding problem matchers and optionally 
 author: 'Erg lang team'
 inputs:
   erg-version:
-    required: true
+    required: false
     default: '0.5.9'
     description: 'Version Spec of the version to use.  Examples: 0.5.9'
 runs:
