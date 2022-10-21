@@ -11,7 +11,7 @@ jobs:
     - uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    - uses: erg-lang/setup-erg@v1.3
+    - uses: erg-lang/setup-erg@v1.4
     - name: Run script
       run: |
         echo 'print! "hello, world!"' | erg
