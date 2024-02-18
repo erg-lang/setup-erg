@@ -4,8 +4,8 @@ author: 'Erg lang team'
 inputs:
   erg-version:
     required: false
-    default: '0.5.9'
-    description: 'Version Spec of the version to use.  Examples: 0.5.9'
+    default: '0.6.31'
+    description: 'Version Spec of the version to use.  Examples: 0.6.31'
 runs:
   using: node16
   main: main.js
