@@ -1,0 +1,12 @@
+{
+  "name": "setup-erg",
+  "version": "0.3.2",
+  "description": "GitHub Action to setup Erg",
+  "main": "main.js",
+  "keywords": [],
+  "author": "Erg lang team",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  }
+}
