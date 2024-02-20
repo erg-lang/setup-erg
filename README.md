@@ -18,3 +18,11 @@ jobs:
       run: |
         echo 'print! "hello, world!"' | erg
 ```
+
+### build (for developers)
+
+```sh
+npm install
+npm i -g @vercel/ncc
+ncc build main.js
+```

@@ -12,4 +12,4 @@ inputs:
     description: 'The build to use. Choices: stable, nightly'
 runs:
   using: node16
-  main: main.js
+  main: 'dist/index.js'
