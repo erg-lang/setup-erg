@@ -5,7 +5,11 @@ inputs:
   erg-version:
     required: false
     default: '0.6.31'
-    description: 'Version Spec of the version to use.  Examples: 0.6.31'
+    description: 'Version Spec of the version to use. Examples: 0.6.31'
+  build:
+    required: false
+    default: 'stable'
+    description: 'The build to use. Choices: stable, nightly'
 runs:
   using: node16
   main: main.js

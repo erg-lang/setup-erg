@@ -12,6 +12,8 @@ jobs:
       with:
         python-version: '3.11'
     - uses: erg-lang/setup-erg@v3
+      with:
+        build: 'nightly'
     - name: Run script
       run: |
         echo 'print! "hello, world!"' | erg
