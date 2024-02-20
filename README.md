@@ -11,7 +11,7 @@ jobs:
     - uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-    - uses: erg-lang/setup-erg@v4
+    - uses: erg-lang/setup-erg@v4.1
       with:
         build: 'nightly'
     - name: Run script
