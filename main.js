@@ -5,8 +5,6 @@ function main() {
     try {
         const version = core.getInput('version', { required: false });
         const build = core.getInput('build', { required: false });
-        core.output('version', version);
-        core.output('build', build);
 
         execFileSync(
             'bash',
