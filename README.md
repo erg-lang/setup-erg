@@ -3,6 +3,9 @@
 ## example
 
 ```yaml
+permissions:
+  contents: write
+
 jobs:
   example:
     runs-on: ubuntu-latest
